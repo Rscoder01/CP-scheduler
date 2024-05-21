@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <title>CP_Schedule</title>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/d1daf0310f.js" crossorigin="anonymous"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@1,600&family=Righteous&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">CP Schedule</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav" style="margin-left: auto;">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About_me.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Connect</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- back to top button -->
+  <h6 id="top" class="center">*********</h6>
+  <a class="link-success" href="#top"><i class="far fa-arrow-alt-circle-up fa-3x navigate-to-top"></i></a>
+
+  <!-- boxed element -->
+  <section>
+    <div class="row" style="margin-top: 120px;margin-bottom: 50px;">
+      <div class="col-lg-3 col-md-6 center">
+        <a href="platform.html"><button class="btn box btn-outline-dark"><img class="contest-type" src="Images/All.gif"
+              alt="Icon">
+            <h3>Short by platforms</h3>
+          </button></a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a href="long.html"><button class="btn box btn-outline-dark"><img class="contest-type" src="Images/long.gif"
+              alt="Icon">
+            <h3>Long contests</h3>
+          </button></a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a href="short.html"><button class="btn box btn-outline-dark"><img class="contest-type"
+              src="https://media.giphy.com/media/3o6gaSIn4dGiY094Os/giphy.gif" alt="Icon">
+            <h3>Short contests</h3>
+          </button></a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a href="day.html"><button class="btn box btn-outline-dark"><img class="contest-type" src="Images/day.gif"
+              alt="Icon">
+            <h3>Short by days</h3>
+          </button></a>
+      </div>
+    </div>
+
+    <marquee behavior="alternate">
+      <h5>Making your 👩‍💻Competitive Programming👩‍💻 journey easier</h5>
+    </marquee>
+  </section>
+
+  <!-- review-section -->
+  <section id="review-section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+      data-bs-pause="hover">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>This website is very good. I recommend this website to all students who practice competitive programming.
+          </h2>
+          <img class="user-icon" src="Images/elon.png" alt="User1">
+          <p>Elon Musk, CEO of Tesla Motors</p>
+        </div>
+        <div class="carousel-item">
+          <h2>During my college days, CP Schedule had helped me a lot in practicing competitive programming. Thank you
+            CP Schedule.</h2>
+          <img class="user-icon" src="Images/sundar.png" alt="User1">
+          <p>Sundar Pichai, CEO of Alphabet</p>
+        </div>
+        <div class="carousel-item">
+          <h2>If you are a coder and regularly practice competitive programming then this website is the one that
+            deserved to be bookmarked.</h2>
+          <img class="user-icon" src="Images/mark.png" alt="User1">
+          <p>Mark Zuckerberg, CEO of Facebook</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+
+    <a href="https://www.linkedin.com/in/nandlal-kumar-01b97920b/"><i class="fab social-icon fa-2x fa-linkedin"></i></a>
+    <a href="mailto:nandlalkumar615@gmail.com"><i class="fas social-icon fa-2x fa-envelope-square"></i></a>
+    <a href="https://twitter.com/Nandlal24289283"><i class="fab social-icon fa-2x fa-twitter-square"></i></a>
+    <a href="https://www.facebook.com/nandlal.kumarchauhan.37"><i
+        class="fab social-icon fa-2x fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/nand_kr_/"><i class="fab social-icon fa-2x fa-instagram"></i></a>
+    <p>&copy; Copyright 2021 CP Schedule</p>
+
+  </footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

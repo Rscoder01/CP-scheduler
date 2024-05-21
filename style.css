@@ -1,0 +1,176 @@
+/* boxed element */
+.center{
+    text-align: center;
+}
+.box{
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+/* navbar */
+.navbar-brand{
+    font-size: 2rem;
+    margin-left: 3%;
+}
+.navbar{
+    margin-bottom: 196px;
+}
+.nav-item{
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    background-color: #343a40;
+    color: #FFF;
+    padding: 1% 0%;
+    margin-top: 70px;
+}
+.social-icon{
+    padding: 10px 15px 15px 15px;
+    color: #FFF;
+}
+/* navigate-to-top */
+.navigate-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    background-color: #E3FDFD;
+    border-radius: 100%;
+}
+/* body */
+body{
+    background-color:#E3FDFD;
+    margin: 3%;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* headings */
+h1{
+    text-decoration: underline;
+    margin-top: 10%;
+}
+h2{
+    color: #FFF;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    margin-top: 15px;
+}
+h4{
+    font-family: 'Roboto Slab', serif;
+    margin: 15px 0 20px 0;
+}
+h5{
+    font-family: 'Roboto Slab', serif;
+    color: #687980;
+}
+/* Home */
+.contest-type{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Contest section */
+.box-image{
+    width: 95%;
+    margin-bottom: 10px;
+}
+.C-margin{
+    margin: 5% 3%;
+}
+.cp-site{
+    color: #FFF;
+}
+.No-contest{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    margin: 5% 0;
+    font-weight: 100;
+}
+.codeforces{
+    background-color: #6c757d;
+    color: #FFF;
+}
+.Codechef{
+    background-color: #17a2b8;
+    color: #FFF;
+}
+.Atcoder{
+    background-color: #0d6efd;
+    color: #FFF;
+}
+.Leetcode{
+    background-color: #28a745;
+    color: #FFF;
+}
+.Hackerearth{
+    background-color: #dc3545;
+    color: #FFF;
+}
+/* Review Section */
+.carousel-item{
+    padding: 5% 20%;
+    text-align: center;
+    background-color: #FF4C68;
+    border-radius: 100px;
+}
+.user-icon{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+#review-section{
+    margin: 10% 10%;
+}
+/* short by platform  */
+.platform_box{
+    text-align: center;
+}
+
+/* short by day  */
+.day{
+    font-size: 4rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+}
+
+/* About_me page */
+
+#title{
+    margin: 10% 10% 10% 10%;
+}
+.title-heading{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.About_me-image{
+    width: 35%;
+    border-radius: 100%;
+}
+.about_info{
+    background-color:#c2f1f1;
+    padding-top: 20px;
+    border-radius: 70px;
+}
+
+/* About page */
+#about h1{
+    font-size: 5rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+}
+.about-text{
+    background-color: #FF4C68;
+    padding: 7%;
+    margin: 5% 8%;
+    line-height: 50px;
+    text-align: justify;
+    border-radius: 100px;
+}
